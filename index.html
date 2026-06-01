@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+    <link
+      href="https://googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <title>Personal Portfolio</title>
   </head>
   <body>
     <div class="container">
-      <header>
-        <h3 class="logo">Dev.Firezer</h3>
+      <header class="header">
+        <h3 class="logo">Developer/.</h3>
         <nav>
           <ul>
             <li>Home</li>
@@ -22,10 +29,19 @@
       <main>
         <section id="hero">
           <div class="intro">
-            <h1></h1>
-            <p></p>
+            <h1>Hi, I'm Firezer -</h1>
+            <h1>Software Developer</h1>
+            <p class="intro-para">
+              A computer science student passionate about building clean,
+              accessible interfaces with HTML, CSS, and JavaScript. Always
+              shipping side projects and learning something new.
+            </p>
+            <div class="buttons">
+              <button id="contact-me">Contact Me</button>
+              <button id="view-project">View Project</button>
+            </div>
           </div>
-          <div class="my-picture"><img src="" alt="" /></div>
+          <div class="my-picture"><img src="./img/profile.jpg" alt="" /></div>
           <div></div>
         </section>
         <section id="about">
@@ -37,7 +53,7 @@
         <section id="projects"></section>
         <section id="Contact"></section>
       </main>
-      <footer></footer>
+      <!-- <footer></footer> -->
     </div>
   </body>
 </html>
